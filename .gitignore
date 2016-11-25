@@ -1,0 +1,38 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+API/node_modules
+API/.env
+
+
+# compiled output
+Angular/dist
+Angular/tmp
+
+# dependencies
+Angular/node_modules
+Angular/bower_components
+
+# IDEs and editors
+Angular/.idea
+Angular/.vscode
+Angular/.project
+Angular/.classpath
+Angular/*.launch
+Angular/.settings/
+
+# misc
+Angular/.sass-cache
+Angular/connect.lock
+Angular/coverage/*
+Angular/libpeerconnection.log
+Angular/npm-debug.log
+Angular/testem.log
+Angular/typings
+
+# e2e
+Angular/e2e/*.js
+Angular/e2e/*.map
+
+#System Files
+Angular/.DS_Store
+Angular/Thumbs.db
