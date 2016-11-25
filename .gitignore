@@ -5,34 +5,34 @@ API/.env
 
 
 # compiled output
-Angular/dist
-Angular/tmp
+Frontend/dist
+Frontend/tmp
 
 # dependencies
-Angular/node_modules
-Angular/bower_components
+Frontend/node_modules
+Frontend/bower_components
 
 # IDEs and editors
-Angular/.idea
-Angular/.vscode
-Angular/.project
-Angular/.classpath
-Angular/*.launch
-Angular/.settings/
+Frontend/.idea
+Frontend/.vscode
+Frontend/.project
+Frontend/.classpath
+Frontend/*.launch
+Frontend/.settings/
 
 # misc
-Angular/.sass-cache
-Angular/connect.lock
-Angular/coverage/*
-Angular/libpeerconnection.log
-Angular/npm-debug.log
-Angular/testem.log
-Angular/typings
+Frontend/.sass-cache
+Frontend/connect.lock
+Frontend/coverage/*
+Frontend/libpeerconnection.log
+Frontend/npm-debug.log
+Frontend/testem.log
+Frontend/typings
 
 # e2e
-Angular/e2e/*.js
-Angular/e2e/*.map
+Frontend/e2e/*.js
+Frontend/e2e/*.map
 
 #System Files
-Angular/.DS_Store
-Angular/Thumbs.db
+Frontend/.DS_Store
+Frontend/Thumbs.db

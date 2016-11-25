@@ -1,0 +1,68 @@
+.subscribe{
+  height: 100vh;
+  background-color: #E1F5C4;
+}
+
+input, button{
+  width: 100%;
+}
+
+#mail{
+  margin-top: 60px;
+  font-size: 20px;
+  border: 1px solid #FC913A;
+  padding: 2px 15px;
+}
+
+#subscribe{
+  box-shadow: none;
+  border: none;
+  background: #FC913A;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5px;
+  transition: background-color .3s;
+  padding: 10px 5px;
+  font-weight: bold;
+  color: white;
+}
+#subscribe:hover{
+  background: #FF7845;
+}
+
+.text{
+  font-size: 17px;
+  margin-top: 10vh;
+  color: #3D4045;
+  text-align: center;
+}
+.text h3{
+  font-weight: bolder;
+}
+
+.unsub{
+  text-align: right;
+  text-decoration: underline;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+#confirm{
+  display: none;
+  background: rgba(255,255,255,0.95);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  padding-top: 45vh;
+}
+
+#confirm h1{
+  font-weight: bolder;
+}
+#confirm .glyphicon{
+  font-size: 40px;
+  color: #FF4E50;
+}
