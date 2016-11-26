@@ -21,19 +21,17 @@ export class SubscribeComponent implements OnInit {
 
   changeText(){
     this.sub = !this.sub;
-    var confirm = document.getElementById("confirm")
+    var confirmIcon = document.getElementById("confirm").getElementsByTagName("span")[0];
     if(this.sub){
       this.btnText = "Subscribe!";
       this.bottomText = "Or unsubscribe";
       this.confirmText = "Email is added!";
-      confirm.classList.add("glyphicon-ok");
-      confirm.classList.remove("glyphicon-remove");
+      confirmIcon.className = "glyphicon glyphicon-ok";
     }else{
       this.btnText = "Unsubscribe";
       this.bottomText = "Or subscribe!";
       this.confirmText = "Email is removed!";
-      confirm.classList.remove("glyphicon-ok");
-      confirm.classList.add("glyphicon-remove");
+      confirmIcon.className = "glyphicon glyphicon-remove";
     }
   }
 
