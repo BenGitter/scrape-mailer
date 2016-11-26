@@ -1,21 +1,9 @@
 var express = require("express");
 var router = express.Router();
-var request = require('request');
-var cheerio = require('cheerio');
 var db = require("./db");
 
 router.get("/scrape", function(req, resp){
-  var url = "https://www.packtpub.com/packt/offers/free-learning"; 
-
-  request(url, function(err, res, html){
-    if(!err){
-      var $ = cheerio.load(html);
-
-      var title = $(".dotd-title h2").html().trim();
-
-      resp.json({ title: title });
-    }
-  });
+  
 });
 
 router.post("/mail", function(req, res){

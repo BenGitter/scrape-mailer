@@ -5,6 +5,7 @@ var cors = require("cors");
 var app = express();
 var db = require("./db");
 var api = require("./api");
+var timer = require("./timer");
 var port = process.env.PORT || 8080;
 
 app.use( bodyParser.json() );       
@@ -25,6 +26,7 @@ db.connect(process.env.DB_URL, function(err){
     // Start server
     app.listen(port, function(){
       console.log("App listening on port", port);
+      timer();
     });
   }
 });

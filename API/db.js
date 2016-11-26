@@ -26,6 +26,16 @@ exports.findMail = function(mail, done){
   });
 }
 
+exports.getAll = function(done){
+  var mails = database.collection("mails");
+
+  mails.find({}).toArray(function(err, docs){
+    if(err) return done(err);
+
+    return done(null, docs);
+  });
+}
+
 exports.addMail = function(mail, done){
   var mails = database.collection("mails");
 
