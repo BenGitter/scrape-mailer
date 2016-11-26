@@ -66,3 +66,10 @@ input, button{
   font-size: 40px;
   color: #FF4E50;
 }
+
+img{
+  position: absolute;
+  bottom: 20px;
+  width: 50px;
+  margin-left: calc(50vw - 25px);
+}

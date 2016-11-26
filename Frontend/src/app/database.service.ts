@@ -9,12 +9,12 @@ export class DatabaseService {
 
   addMail(mail:string){
     var body = {"mail": mail};
-    return this.http.post("http://localhost:8080/api/mail/", body)
+    return this.http.post("https://dreary-eyelash.hyperdev.space/api/mail/", body)
       .map(res => res.json());
   }
 
   deleteMail(mail:string){
-    return this.http.delete("http://localhost:8080/api/mail/" + mail)
+    return this.http.delete("https://dreary-eyelash.hyperdev.space/api/mail/" + mail)
       .map(res => res.json());
   }
 }
